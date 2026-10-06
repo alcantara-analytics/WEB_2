@@ -1,0 +1,17 @@
+# Lista 11 | FIEECS UNI
+
+> Sitio de la Lista 11 de la FIEECS, en la Universidad Nacional de Ingeniería (UNI). Reúne las propuestas de la lista, recursos para el estudiantado y un formulario para participar. Lema: "Tu voz cuenta".
+
+## Secciones
+
+- [Inicio](https://wb-1.loll80880.workers.dev/): quiénes somos y cómo sumarte.
+- [Propuestas](https://wb-1.loll80880.workers.dev/#propuestas): lo que proponemos al estudiantado.
+- [Equipo](https://wb-1.loll80880.workers.dev/#equipo): las personas que integran la lista.
+- [Recursos](https://wb-1.loll80880.workers.dev/#recursos): material útil para estudiantes.
+- [Preguntas frecuentes](https://wb-1.loll80880.workers.dev/#faq): respuestas rápidas.
+- [Participa](https://wb-1.loll80880.workers.dev/#participa): formulario para escribirnos, proponer ideas o sumarte.
+
+## Notas
+
+- Idioma: español (Perú).
+- Contenido pendiente de completar: propuestas, equipo, recursos y cifras.

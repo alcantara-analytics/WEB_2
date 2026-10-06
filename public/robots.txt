@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+
+# PENDIENTE: cambia el dominio si usas uno propio
+Sitemap: https://wb-1.loll80880.workers.dev/sitemap.xml

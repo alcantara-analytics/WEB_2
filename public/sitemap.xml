@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- PENDIENTE: cambia el dominio si usas uno propio y actualiza lastmod al publicar -->
+  <url>
+    <loc>https://wb-1.loll80880.workers.dev/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+</urlset>

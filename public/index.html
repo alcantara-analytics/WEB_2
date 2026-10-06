@@ -1,0 +1,585 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!--
+  ┌─ PENDIENTES (busca "PENDIENTE" en este archivo y en main.js) ─────────────┐
+  │ 1. Textos reales: propuestas, equipo, recursos, cifras, redes.             │
+  │ 2. Dominio final: cambia https://wb-1.loll80880.workers.dev/ (canonical,   │
+  │    og:url, og:image, JSON-LD, sitemap.xml, robots.txt, llms.txt, worker.js)│
+  │ 3. Google Search Console: descomenta la meta de verificación de abajo.     │
+  │ 4. GA4: pon tu ID en GA_ID dentro de main.js.                              │
+  └────────────────────────────────────────────────────────────────────────────┘
+-->
+
+<title>Lista 11 | FIEECS UNI — Tu voz cuenta</title>
+<meta name="description" content="Lista 11 de la FIEECS en la UNI: conoce nuestras propuestas, accede a recursos y súmate. Aquí tu voz cuenta.">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="theme-color" content="#234BDB">
+<link rel="canonical" href="https://wb-1.loll80880.workers.dev/">
+<!-- PENDIENTE (Search Console): <meta name="google-site-verification" content="TU-CODIGO"> -->
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_PE">
+<meta property="og:site_name" content="Lista 11 | FIEECS UNI">
+<meta property="og:title" content="Lista 11 | FIEECS UNI — Tu voz cuenta">
+<meta property="og:description" content="Propuestas, recursos y formas de participar de la Lista 11 de la FIEECS, UNI.">
+<meta property="og:url" content="https://wb-1.loll80880.workers.dev/">
+<meta property="og:image" content="https://wb-1.loll80880.workers.dev/og-lista-11-fieecs-uni.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Logo de la Lista 11: colibrí azul y cian con una flecha ascendente">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Lista 11 | FIEECS UNI — Tu voz cuenta">
+<meta name="twitter:description" content="Propuestas, recursos y formas de participar de la Lista 11 de la FIEECS, UNI.">
+<meta name="twitter:image" content="https://wb-1.loll80880.workers.dev/og-lista-11-fieecs-uni.png">
+
+<link rel="icon" href="favicon.png" type="image/png" sizes="64x64">
+<link rel="icon" href="icon-192.png" type="image/png" sizes="192x192">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+<link rel="preload" href="fonts/jost-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/atkinson-hyperlegible-next-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="colibri-lista-11-hero.png" as="image" fetchpriority="high">
+<link rel="stylesheet" href="styles.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Lista 11 | FIEECS UNI",
+  "alternateName": "Lista 11 FIEECS",
+  "url": "https://wb-1.loll80880.workers.dev/",
+  "logo": "https://wb-1.loll80880.workers.dev/logo-lista-11-colibri.png",
+  "description": "Lista de estudiantes de la FIEECS en la Universidad Nacional de Ingeniería: propuestas, recursos y participación estudiantil.",
+  "parentOrganization": {
+    "@type": "CollegeOrUniversity",
+    "name": "Universidad Nacional de Ingeniería"
+  },
+  "areaServed": "PE"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Lista 11 | FIEECS UNI",
+  "url": "https://wb-1.loll80880.workers.dev/",
+  "inLanguage": "es"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Quiénes somos?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Somos la Lista 11 de la FIEECS, en la UNI. En esta página presentamos nuestras propuestas y recursos para el estudiantado."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Dónde veo las propuestas?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "En la sección Propuestas de esta página. Si tienes dudas sobre alguna, escríbenos desde el formulario."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo puedo participar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Completa el formulario de la sección Participa y cuéntanos cómo quieres sumarte."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Dónde encuentro los recursos?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "En la sección Recursos de esta página."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Puedo proponer una idea?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí. Usa el formulario y elige la opción Tengo una idea."
+      }
+    }
+  ]
+}
+</script>
+
+<script src="main.js" defer></script>
+</head>
+
+<body>
+
+<!-- Símbolos SVG reutilizables -->
+<svg class="sprite" aria-hidden="true" focusable="false">
+  <symbol id="feather" viewBox="0 0 100 300">
+    <path d="M50 0 C98 70 98 190 50 292 C2 190 2 70 50 0Z" fill="currentColor"/>
+    <path d="M50 24 V296" stroke="#1A0B3B" stroke-opacity=".55" stroke-width="3" fill="none"/>
+  </symbol>
+  <symbol id="icon-share" viewBox="0 0 24 24">
+    <path d="M12 3v12M12 3 7.5 7.5M12 3l4.5 4.5M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </symbol>
+</svg>
+
+<a class="skip" href="#contenido">Saltar al contenido</a>
+<div class="progress" id="progress" aria-hidden="true"></div>
+<div class="cursor cursor-ring" aria-hidden="true"></div>
+<div class="cursor cursor-dot" aria-hidden="true"></div>
+
+<!-- ───────────── NAVEGACIÓN ───────────── -->
+<header class="nav" id="nav">
+  <a class="brand" href="#inicio" aria-label="Lista 11 FIEECS UNI, ir al inicio">
+    <img class="brand-mark" src="colibri-lista-11-mini.png" alt="" width="41" height="34">
+    <span>Lista<b>11</b></span>
+  </a>
+  <nav class="nav-links" id="menu" aria-label="Principal">
+    <a href="#propuestas">Propuestas</a>
+    <a href="#equipo">Equipo</a>
+    <a href="#recursos">Recursos</a>
+    <a href="#participa">Participa</a>
+  </nav>
+  <a class="btn btn-primary btn-sm nav-cta" href="#participa" data-track="nav_sumate">Súmate</a>
+  <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menú">
+    <span></span><span></span>
+  </button>
+</header>
+
+<main id="contenido">
+
+<!-- ───────────── HERO ───────────── -->
+<section class="hero on-dark" id="inicio" aria-labelledby="titulo">
+  <div class="hero-bg" aria-hidden="true">
+    <div class="blob b1"></div>
+    <div class="blob b2"></div>
+    <div class="blob b3"></div>
+    <svg class="dots" width="100%" height="100%" focusable="false">
+      <defs>
+        <pattern id="pat-dots" width="30" height="30" patternUnits="userSpaceOnUse">
+          <circle cx="3" cy="3" r="1.7" fill="currentColor"/>
+        </pattern>
+      </defs>
+      <rect width="100%" height="100%" fill="url(#pat-dots)"/>
+    </svg>
+    <svg class="feather f1" viewBox="0 0 100 300" focusable="false" data-speed="-0.10"><use href="#feather"/></svg>
+    <svg class="feather f2" viewBox="0 0 100 300" focusable="false" data-speed="-0.16"><use href="#feather"/></svg>
+    <svg class="feather f3" viewBox="0 0 100 300" focusable="false" data-speed="-0.07"><use href="#feather"/></svg>
+    <div class="grain"></div>
+  </div>
+
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <h1 id="titulo" class="h1"><span class="w">Ven,</span> <span class="w">esta</span> <span class="w">lista</span> <span class="w">también</span> <span class="w">es</span> <span class="w">tuya</span></h1>
+      <p class="lead">Somos la Lista 11 de la FIEECS. Aquí encuentras nuestras <a href="#propuestas">propuestas</a>, <a href="#recursos">recursos</a> útiles y la forma más fácil de <a href="#participa">participar</a>. Tu voz cuenta.</p>
+      <div class="cta-row">
+        <a class="btn btn-primary btn-lg" href="#participa" data-magnetic data-track="hero_sumate">Súmate</a>
+        <a class="btn btn-neu-dark btn-lg" href="#propuestas" data-track="hero_propuestas">Ver propuestas</a>
+      </div>
+    </div>
+
+    <div class="hero-art">
+      <div class="sh sh-circle" data-speed="0.04"></div>
+      <div class="sh sh-half" data-speed="-0.06"></div>
+      <div class="sh sh-tri" data-speed="0.08"></div>
+      <div class="sh sh-sq" data-speed="-0.04"></div>
+
+      <div class="bird-wrap" id="bird">
+        <div class="bird-float">
+          <img class="bird-img" src="colibri-lista-11-hero.png" width="840" height="696" fetchpriority="high" alt="Colibrí azul y cian con una flecha ascendente, símbolo de la Lista 11">
+          <svg class="bird-eye-svg" viewBox="0 0 840 696" aria-hidden="true" focusable="false">
+            <g id="bird-eye">
+              <g id="bird-pupil">
+                <circle cx="590" cy="262.5" r="15.5" fill="#030a1e"/>
+                <circle cx="594.5" cy="256" r="4.4" fill="#fff"/>
+              </g>
+            </g>
+          </svg>
+        </div>
+      </div>
+
+      <p class="sticker">Tu voz cuenta</p>
+      <p class="chip chip-a">Lista 11</p>
+      <p class="chip chip-b">FIEECS UNI</p>
+      <a class="chip chip-c" href="#participa" data-track="chip_escribenos">¿Dudas? Escríbenos</a>
+    </div>
+  </div>
+</section>
+
+<!-- ───────────── EN RESUMEN ───────────── -->
+<section class="sec sec-tldr" aria-labelledby="resumen-t">
+  <svg class="wave" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path d="M0 70 C200 130 420 10 720 56 C1000 100 1220 20 1440 70 V120 H0Z"/></svg>
+  <div class="wrap">
+    <div class="tldr">
+      <div class="tldr-head">
+        <h2 id="resumen-t" class="h2-sm">En resumen</h2>
+        <div class="share" data-share>
+          <button class="btn btn-neu btn-sm" type="button" data-share-btn aria-expanded="false" aria-haspopup="true">
+            <svg class="icon" aria-hidden="true" focusable="false"><use href="#icon-share"/></svg>
+            Compartir
+          </button>
+          <div class="share-menu" data-share-menu hidden>
+            <button type="button" data-share-copy>Copiar enlace</button>
+            <a data-share-wa target="_blank" rel="noopener noreferrer">WhatsApp</a>
+            <a data-share-x target="_blank" rel="noopener noreferrer">X</a>
+            <a data-share-fb target="_blank" rel="noopener noreferrer">Facebook</a>
+          </div>
+          <p class="share-note" role="status" aria-live="polite" data-share-note></p>
+        </div>
+      </div>
+      <ul class="tldr-list">
+        <li>
+          <span class="glyph glyph-circle" aria-hidden="true"></span>
+          <h3>Somos la Lista 11</h3>
+          <p>Estudiantes de la FIEECS, en la UNI.</p>
+        </li>
+        <li>
+          <span class="glyph glyph-square" aria-hidden="true"></span>
+          <h3>Aquí encuentras</h3>
+          <p>Propuestas, recursos y formas de participar.</p>
+          <a class="link" href="#propuestas">Ver propuestas</a>
+        </li>
+        <li>
+          <span class="glyph glyph-tri" aria-hidden="true"></span>
+          <h3>Tú eliges cómo sumarte</h3>
+          <p>Escríbenos una duda, una idea o tus ganas de ayudar.</p>
+          <a class="link" href="#participa">Ir al formulario</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ───────────── PROPUESTAS ───────────── -->
+<section class="sec sec-props" id="propuestas" aria-labelledby="propuestas-t">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2 id="propuestas-t">Lo que proponemos</h2>
+      <p class="lead-dark"><span class="tbd">PENDIENTE</span> Una frase que resuma el enfoque de las propuestas.</p>
+    </div>
+
+    <div class="prop-grid">
+      <article class="prop prop-1 glow-card reveal">
+        <span class="prop-shape" aria-hidden="true"></span>
+        <h3>Título de la propuesta <span class="tbd">PENDIENTE</span></h3>
+        <p>Cuenta en dos o tres líneas qué propones y a quién beneficia.</p>
+        <a class="link" href="#participa">Danos tu opinión</a>
+      </article>
+      <article class="prop prop-2 glow-card reveal">
+        <span class="prop-shape" aria-hidden="true"></span>
+        <h3>Título de la propuesta <span class="tbd">PENDIENTE</span></h3>
+        <p>Cuenta en dos o tres líneas qué propones y a quién beneficia.</p>
+        <a class="link" href="#participa">Danos tu opinión</a>
+      </article>
+      <article class="prop prop-3 glow-card reveal">
+        <span class="prop-shape" aria-hidden="true"></span>
+        <h3>Título de la propuesta <span class="tbd">PENDIENTE</span></h3>
+        <p>Cuenta en dos o tres líneas qué propones y a quién beneficia.</p>
+        <a class="link" href="#participa">Danos tu opinión</a>
+      </article>
+      <article class="prop prop-4 glow-card reveal">
+        <span class="prop-shape" aria-hidden="true"></span>
+        <h3>Título de la propuesta <span class="tbd">PENDIENTE</span></h3>
+        <p>Cuenta en dos o tres líneas qué propones y a quién beneficia.</p>
+        <a class="link" href="#participa">Danos tu opinión</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ───────────── CIFRAS ───────────── -->
+<section class="sec sec-stats" aria-labelledby="cifras-t">
+  <svg class="wave" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path d="M0 40 C240 0 480 110 760 70 C1040 30 1240 100 1440 50 V120 H0Z"/></svg>
+  <div class="wrap">
+    <div class="sec-head">
+      <h2 id="cifras-t">La lista en cifras</h2>
+    </div>
+
+    <ul class="stats">
+      <li class="stat">
+        <output class="stat-n" data-count="">00</output>
+        <p class="stat-l">Propuestas</p>
+        <p class="stat-note"><span class="tbd">dato pendiente</span></p>
+      </li>
+      <li class="stat">
+        <output class="stat-n" data-count="">00</output>
+        <p class="stat-l">Integrantes</p>
+        <p class="stat-note"><span class="tbd">dato pendiente</span></p>
+      </li>
+      <li class="stat">
+        <output class="stat-n" data-count="">00</output>
+        <p class="stat-l">Recursos</p>
+        <p class="stat-note"><span class="tbd">dato pendiente</span></p>
+      </li>
+      <li class="stat">
+        <output class="stat-n" data-count="">00</output>
+        <p class="stat-l">Estudiantes sumados</p>
+        <p class="stat-note"><span class="tbd">dato pendiente</span></p>
+      </li>
+    </ul>
+
+    <h3 class="h3-table">Propuestas de un vistazo</h3>
+    <div class="table-wrap neu-box" role="region" aria-label="Tabla de propuestas" tabindex="0">
+      <table>
+        <caption class="sr-only">Resumen de las propuestas de la Lista 11</caption>
+        <thead>
+          <tr><th scope="col">Propuesta</th><th scope="col">Para quién</th><th scope="col">Estado</th></tr>
+        </thead>
+        <tbody>
+          <tr><th scope="row">Propuesta 1</th><td><span class="tbd">PENDIENTE</span></td><td><span class="tbd">PENDIENTE</span></td></tr>
+          <tr><th scope="row">Propuesta 2</th><td><span class="tbd">PENDIENTE</span></td><td><span class="tbd">PENDIENTE</span></td></tr>
+          <tr><th scope="row">Propuesta 3</th><td><span class="tbd">PENDIENTE</span></td><td><span class="tbd">PENDIENTE</span></td></tr>
+          <tr><th scope="row">Propuesta 4</th><td><span class="tbd">PENDIENTE</span></td><td><span class="tbd">PENDIENTE</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ───────────── EQUIPO ───────────── -->
+<section class="sec sec-team" id="equipo" aria-labelledby="equipo-t">
+  <svg class="wave" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path d="M0 60 C180 10 400 120 700 64 C1000 8 1240 110 1440 56 V120 H0Z"/></svg>
+  <div class="wrap">
+    <div class="sec-head">
+      <h2 id="equipo-t">El equipo</h2>
+      <p class="lead-dark">Conoce a las y los integrantes de la Lista 11. Sus historias avanzan juntas, como una sola lista.</p>
+    </div>
+
+    <div class="team-gallery reveal">
+      <div class="team-marquee" aria-label="Galería animada del equipo Lista 11">
+        <div class="team-track">
+          <div class="team-loop-set">
+            <article class="team-poster"><img src="equipo/yance-porras.jpg" alt="Afiche de Yance Porras, integrante de la Lista 11" width="1080" height="1350" loading="eager"></article>
+            <article class="team-poster"><img src="equipo/astrid-rondon.jpg" alt="Afiche de Astrid Rondon, integrante de la Lista 11" width="1080" height="1350" loading="lazy"></article>
+            <article class="team-poster"><img src="equipo/reynold-suarez.jpg" alt="Afiche de Reynold Suarez, integrante de la Lista 11" width="1080" height="1350" loading="lazy"></article>
+            <article class="team-poster"><img src="equipo/kevin-cornejo.jpg" alt="Afiche de Kevin Cornejo, integrante de la Lista 11" width="1080" height="1350" loading="lazy"></article>
+            <article class="team-poster"><img src="equipo/pamela-aquino.jpg" alt="Afiche de Pamela Aquino, integrante de la Lista 11" width="1080" height="1350" loading="lazy"></article>
+            <article class="team-poster"><img src="equipo/lorena-fernandez.jpg" alt="Afiche de Lorena Fernandez, integrante de la Lista 11" width="1080" height="1350" loading="lazy"></article>
+          </div>
+          <div class="team-loop-set" aria-hidden="true">
+            <article class="team-poster"><img src="equipo/yance-porras.jpg" alt="" width="1080" height="1350" loading="lazy"></article>
+            <article class="team-poster"><img src="equipo/astrid-rondon.jpg" alt="" width="1080" height="1350" loading="lazy"></article>
+            <article class="team-poster"><img src="equipo/reynold-suarez.jpg" alt="" width="1080" height="1350" loading="lazy"></article>
+            <article class="team-poster"><img src="equipo/kevin-cornejo.jpg" alt="" width="1080" height="1350" loading="lazy"></article>
+            <article class="team-poster"><img src="equipo/pamela-aquino.jpg" alt="" width="1080" height="1350" loading="lazy"></article>
+            <article class="team-poster"><img src="equipo/lorena-fernandez.jpg" alt="" width="1080" height="1350" loading="lazy"></article>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ───────────── RECURSOS ───────────── -->
+<section class="sec sec-res on-dark" id="recursos" aria-labelledby="recursos-t">
+  <svg class="wave" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path d="M0 70 C200 130 420 10 720 56 C1000 100 1220 20 1440 70 V120 H0Z"/></svg>
+  <div class="res-bg" aria-hidden="true">
+    <div class="blob rb1"></div>
+    <div class="blob rb2"></div>
+    <svg class="feather f4" viewBox="0 0 100 300" focusable="false" data-speed="-0.12"><use href="#feather"/></svg>
+    <div class="grain"></div>
+  </div>
+  <div class="wrap">
+    <div class="sec-head">
+      <h2 id="recursos-t">Recursos</h2>
+      <p class="lead-light"><span class="tbd">PENDIENTE</span> Una frase que explique para qué sirven estos recursos.</p>
+    </div>
+
+    <div class="res-grid">
+      <article class="res glow-card reveal">
+        <p class="res-meta"><span class="res-tag">Etiqueta</span> <time>Fecha</time></p>
+        <h3>Título del recurso <span class="tbd">PENDIENTE</span></h3>
+        <p>Describe en una línea qué encuentra el estudiante aquí.</p>
+        <a class="link link-light" href="#recursos">Ver recurso</a>
+      </article>
+      <article class="res glow-card reveal">
+        <p class="res-meta"><span class="res-tag">Etiqueta</span> <time>Fecha</time></p>
+        <h3>Título del recurso <span class="tbd">PENDIENTE</span></h3>
+        <p>Describe en una línea qué encuentra el estudiante aquí.</p>
+        <a class="link link-light" href="#recursos">Ver recurso</a>
+      </article>
+      <article class="res glow-card reveal">
+        <p class="res-meta"><span class="res-tag">Etiqueta</span> <time>Fecha</time></p>
+        <h3>Título del recurso <span class="tbd">PENDIENTE</span></h3>
+        <p>Describe en una línea qué encuentra el estudiante aquí.</p>
+        <a class="link link-light" href="#recursos">Ver recurso</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ───────────── PREGUNTAS FRECUENTES ───────────── -->
+<section class="sec sec-faq" id="faq" aria-labelledby="faq-t">
+  <svg class="wave" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path d="M0 40 C240 0 480 110 760 70 C1040 30 1240 100 1440 50 V120 H0Z"/></svg>
+  <div class="wrap faq-grid">
+    <div class="faq-intro">
+      <h2 id="faq-t">Preguntas frecuentes</h2>
+      <p class="lead-dark">¿No ves tu duda? <a class="link" href="#participa">Escríbenos</a> y la resolvemos.</p>
+    </div>
+    <div class="faq-list">
+      <details>
+        <summary>¿Quiénes somos?</summary>
+        <p>Somos la Lista 11 de la FIEECS, en la UNI. En esta página presentamos nuestras propuestas y recursos para el estudiantado.</p>
+      </details>
+      <details>
+        <summary>¿Dónde veo las propuestas?</summary>
+        <p>En la sección <a class="link" href="#propuestas">Propuestas</a> de esta página. Si tienes dudas sobre alguna, escríbenos desde el formulario.</p>
+      </details>
+      <details>
+        <summary>¿Cómo puedo participar?</summary>
+        <p>Completa el formulario de la sección <a class="link" href="#participa">Participa</a> y cuéntanos cómo quieres sumarte.</p>
+      </details>
+      <details>
+        <summary>¿Dónde encuentro los recursos?</summary>
+        <p>En la sección <a class="link" href="#recursos">Recursos</a> de esta página.</p>
+      </details>
+      <details>
+        <summary>¿Puedo proponer una idea?</summary>
+        <p>Sí. Usa el formulario y elige la opción Tengo una idea.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ───────────── PARTICIPA ───────────── -->
+<section class="sec sec-join" id="participa" aria-labelledby="participa-t">
+  <svg class="wave" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path d="M0 60 C180 10 400 120 700 64 C1000 8 1240 110 1440 56 V120 H0Z"/></svg>
+  <div class="wrap">
+    <div class="panel on-dark">
+      <div class="panel-deco" aria-hidden="true">
+        <span class="pd pd-circle"></span>
+        <span class="pd pd-tri"></span>
+        <span class="pd pd-ring"></span>
+        <svg class="panel-wave" viewBox="0 0 1440 200" preserveAspectRatio="none" focusable="false">
+          <path d="M0 120 C240 60 480 190 760 130 C1040 70 1240 160 1440 100 V200 H0Z" fill="#fff" fill-opacity=".10"/>
+          <path d="M0 150 C220 100 520 200 800 160 C1080 120 1260 180 1440 140 V200 H0Z" fill="#fff" fill-opacity=".12"/>
+        </svg>
+      </div>
+
+      <div class="panel-copy">
+        <h2 id="participa-t">Súmate a la Lista 11</h2>
+        <p class="lead-light">Cuéntanos qué necesitas, qué propones o cómo quieres ayudar. Te respondemos por el medio que dejes.</p>
+        <div class="share share--left" data-share>
+          <button class="btn btn-neu-dark btn-sm" type="button" data-share-btn aria-expanded="false" aria-haspopup="true">
+            <svg class="icon" aria-hidden="true" focusable="false"><use href="#icon-share"/></svg>
+            Compartir esta página
+          </button>
+          <div class="share-menu" data-share-menu hidden>
+            <button type="button" data-share-copy>Copiar enlace</button>
+            <a data-share-wa target="_blank" rel="noopener noreferrer">WhatsApp</a>
+            <a data-share-x target="_blank" rel="noopener noreferrer">X</a>
+            <a data-share-fb target="_blank" rel="noopener noreferrer">Facebook</a>
+          </div>
+          <p class="share-note share-note-light" role="status" aria-live="polite" data-share-note></p>
+        </div>
+      </div>
+
+      <form class="form neu-surface" id="form-contacto" data-endpoint="/api/contact" novalidate>
+        <div class="field">
+          <label for="f-name">Tu nombre</label>
+          <input id="f-name" name="name" type="text" autocomplete="name" maxlength="80" required aria-describedby="err-name">
+          <p class="field-error" id="err-name" hidden></p>
+        </div>
+        <div class="field">
+          <label for="f-contact">Correo o WhatsApp</label>
+          <input id="f-contact" name="contact" type="text" inputmode="email" autocomplete="email" maxlength="120" required aria-describedby="err-contact">
+          <p class="field-error" id="err-contact" hidden></p>
+        </div>
+        <div class="field">
+          <label for="f-topic">¿Qué quieres hacer?</label>
+          <select id="f-topic" name="topic">
+            <option value="sumarme">Quiero sumarme</option>
+            <option value="idea">Tengo una idea</option>
+            <option value="duda">Tengo una duda</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="f-message">Tu mensaje</label>
+          <textarea id="f-message" name="message" rows="4" maxlength="1000" required aria-describedby="err-message"></textarea>
+          <p class="field-error" id="err-message" hidden></p>
+        </div>
+        <div class="hp" aria-hidden="true">
+          <label>Sitio web <input type="text" name="website" tabindex="-1" autocomplete="off"></label>
+        </div>
+        <button class="btn btn-primary btn-lg btn-block" type="submit" data-track="form_click">Enviar mensaje</button>
+        <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ───────────── PIE ───────────── -->
+<footer class="footer on-dark">
+  <svg class="wave" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path d="M0 70 C200 130 420 10 720 56 C1000 100 1220 20 1440 70 V120 H0Z"/></svg>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="#inicio" aria-label="Lista 11, volver al inicio">
+          <img class="brand-mark" src="colibri-lista-11-mini.png" alt="" width="41" height="34">
+          <span>Lista<b>11</b></span>
+        </a>
+        <p>Lista 11 de la FIEECS, UNI. Tu voz cuenta.</p>
+      </div>
+      <nav aria-label="Explora">
+        <h2 class="footer-h">Explora</h2>
+        <ul>
+          <li><a href="#propuestas">Propuestas</a></li>
+          <li><a href="#equipo">Equipo</a></li>
+          <li><a href="#recursos">Recursos</a></li>
+          <li><a href="#faq">Preguntas frecuentes</a></li>
+        </ul>
+      </nav>
+      <nav aria-label="Participa">
+        <h2 class="footer-h">Participa</h2>
+        <ul>
+          <li><a href="#participa">Escríbenos</a></li>
+          <li><a href="#participa">Súmate</a></li>
+        </ul>
+      </nav>
+      <div>
+        <h2 class="footer-h">Redes</h2>
+        <ul>
+          <li>Instagram <span class="tbd">enlace pendiente</span></li>
+          <li>Facebook <span class="tbd">enlace pendiente</span></li>
+          <li>TikTok <span class="tbd">enlace pendiente</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Lista 11 de la FIEECS, UNI.</p>
+      <a href="#inicio">Volver arriba</a>
+    </div>
+  </div>
+</footer>
+
+<!-- Barra fija en móvil -->
+<div class="sticky-cta" aria-hidden="true" id="sticky-cta">
+  <span>¿Te sumas?</span>
+  <a class="btn btn-primary btn-sm" href="#participa" tabindex="-1" data-track="sticky_sumate">Súmate</a>
+</div>
+
+<!-- Aviso de analítica (solo aparece si hay GA_ID en main.js) -->
+<aside class="consent" id="consent" role="dialog" aria-label="Preferencias de analítica" hidden>
+  <p>Usamos analítica para saber qué secciones te sirven. ¿Nos dejas medirlo?</p>
+  <div class="consent-actions">
+    <button class="btn btn-primary btn-sm" type="button" id="consent-yes">Aceptar</button>
+    <button class="btn btn-neu-dark btn-sm" type="button" id="consent-no">No, gracias</button>
+  </div>
+</aside>
+
+</body>
+</html>
